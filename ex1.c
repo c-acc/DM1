@@ -4,7 +4,13 @@
 
 int main(){
   int n,d1=0,d2=0;
+  //name
+ char st[8];
+  printf("What is your name?\n");
+  scanf("%s",st);
+  printf("Hello,%s",st);
   
+  //dice
   printf("Rolling dice...\n");
   srand((unsigned int)time(NULL));
   
