@@ -16,5 +16,13 @@ int main(){
   
   n=d1+d2;
   printf("Total value: %d\n",n);
+  
+  if(n>7){
+  printf("You won\n");
+  }else {
+  printf("You lost\n");
+  }
+  
+  
   return 0;
 }
